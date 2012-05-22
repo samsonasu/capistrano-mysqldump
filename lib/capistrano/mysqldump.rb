@@ -1,4 +1,4 @@
-Capistrano::Configuration.instance(:must_exist)(:must_exist)(:must_exist)(:must_exist)(:must_exist)(:must_exist)(:must_exist)(:must_exist)(:must_exist).load do
+Capistrano::Configuration.instance(:must_exist).load do
   namespace :mysqldump do
     task :default, :roles => :db do
       dump
